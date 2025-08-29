@@ -20,12 +20,11 @@ Profesyonel Footer: İletişim bilgileri, sosyal medya bağlantıları (LinkedIn
 
 SEO ve Erişilebilirlik: Meta etiketler ve temiz kod yapısıyla optimize edilmiş.
 
+
 🛠Kullanılan Teknolojiler:
 
 Frontend: HTML5, CSS3, JavaScript, Bootstrap 5.3
-
 Araçlar: Git, GitHub, VS Code
-
 Ek: Markdown (README için), Bootstrap Icons (sosyal medya simgeleri)
 
 

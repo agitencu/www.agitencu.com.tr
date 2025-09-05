@@ -85,68 +85,40 @@
         <p>Projelerim ve iş birliklerim için benimle iletişime geçin. Size en kısa sürede dönüş yapacağım.</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade" data-aos-delay="100">
+      <div class="container d-flex justify-content-center" data-aos="fade" data-aos-delay="100">
 
-        <div class="row gy-4">
+    <div class="row gy-4">
+      <div class="col-lg-10 mx-auto">
+        <form class="./assets/js" data-aos="fade-up" data-aos-delay="200" 
+          onsubmit="sendEmail(); return false;">
+          <div class="row gy-4">
 
-          <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-geo-alt flex-shrink-0"></i>
-              <div>
-                <h3>Address</h3>
-                <p>Muğla / Türkiye</p>
-              </div>
-            </div><!-- End Info Item -->
+            <div class="col-md-6">
+            <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
+            </div>
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-telephone flex-shrink-0"></i>
-              <div>
-                <h3>Call Us</h3>
-                <!-- <p>+1 5589 55488 55</p> -->
-              </div>
-            </div><!-- End Info Item -->
+            <div class="col-md-6">
+            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+            </div>
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-envelope flex-shrink-0"></i>
-              <div>
-                <h3>Email Us</h3>
-                <p>agtencu@gmail.com</p>
-              </div>
-            </div><!-- End Info Item -->
+            <div class="col-md-12">
+            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+            </div>
+
+            <div class="col-md-12">
+            <textarea id="message" name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+            <button type="submit" class="btn btn-primary" onclick="sendEmail()">Send Message</button>
+            </div>
 
           </div>
+        </form>
+      </div><!-- End Contact Form -->
+    </div>
+  </div>
 
-          <div class="col-lg-8">
-              <form class="./assets/js" data-aos="fade-up" data-aos-delay="200" 
-                onsubmit="sendEmail(); return false;">
-            <div class="row gy-4">
-
-              <div class="col-md-6">
-                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required>
-              </div>
-
-              <div class="col-md-6">
-                <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
-              </div>
-
-              <div class="col-md-12">
-                <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
-              </div>
-
-              <div class="col-md-12">
-                <textarea id="message" name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
-              </div>
-
-              <div class="col-md-12 text-center">
-                <button type="submit" class="btn btn-primary" onclick="sendEmail()">Send Message</button>
-              </div>
-
-            </div>
-          </form>
-
-          </div><!-- End Contact Form -->
-        </div>
-      </div>
     </section><!-- /Contact Section -->
   </main>
 
